@@ -18,7 +18,10 @@ print "Now I will count the eggs:"
 
 # And again 3 + 2 + 1 - 5 + (4 % 2) - (1 / 4) + 6 or more
 # realistically you'd split this across a couple lines...
-# Regardless,
+# Regardless, we divide 1 by 4 and divide 4 by 2 and keep the
+# remainder then we sum across. Note per Study Drill 3 I've
+# replaced 1 with 1.0 to force python to evaluate the values
+# as floating point numbers instead of integers
 print 3 + 2 + 1 - 5 + 4 % 2 - 1.0 / 4 + 6
 
 print "Is it true that 3 + 2 < 5 - 7?"
